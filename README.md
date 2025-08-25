@@ -24,7 +24,7 @@ employee_management/
 
 ⚙️ Setup & Installation
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/employee-management-system.git
+git clone https://github.com/Amanmaurya-2427/employee-management-system.git
 cd employee-management-system
 
 2️⃣ Install Dependencies
@@ -54,4 +54,5 @@ Secure credentials using .env file
 👨‍💻 Author
 Developed by Aman kumar maurya
  
+
 
