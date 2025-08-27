@@ -1,59 +1,68 @@
-﻿# Employee-management-system
+👥 Employee Management System
+
 A simple Employee Management System built with Streamlit and MySQL.
-This app allows you to add, view, and search employees with a clean UI, data stored in a MySQL database.
+This app allows you to add, view, and search employees easily with a clean web-based interface.
 
 🚀 Features
--Add new employees with details like name, email, department, position, salary, hire date
--View all employees in a structured data table with metrics:
--Total Employees
-Number of Departments
-Average Salary
-Search employees by name, email, or department
-Data stored securely in a MySQL database
 
-🛠️ Tech Stack
--Frontend: Streamlit
--Backend: Python
--Database: MySQL
--Libraries: streamlit, mysql-connector-python, pandas
+✅ Add new employees with details like name, email, department, position, salary, hire date
+✅ View all employees in a structured table with statistics
+✅ Search employees by name, email, or department
+✅ Automatic table creation in MySQL
+✅ Clean and interactive Streamlit UI
+
+🛠 Tech Stack
+
+Python 🐍
+
+Streamlit (Frontend Web UI)
+
+MySQL (Database)
+
+Pandas (Data formatting & table display)
 
 📂 Project Structure
-employee_management/
-│── employee_management.py   # Main Streamlit app
-│── README.md                # Documentation
+employee_management.py   # Main application file
 
-⚙️ Setup & Installation
-1️⃣ Clone the Repository
-git clone https://github.com/Amanmaurya-2724/employee-management-system.git
-cd employee-management-system
-
-2️⃣ Install Dependencies
+⚙️ Setup Instructions
+1️⃣ Install Requirements
 pip install streamlit mysql-connector-python pandas
 
-3️⃣ Configure Database
-Create a MySQL database:
+2️⃣ Setup MySQL Database
+
+Login to MySQL and create a new database:
+
 CREATE DATABASE company;
-Update your database credentials inside employee_management.py:
+
+3️⃣ Update Database Config in Code
+
+In employee_management.py, update your MySQL username & password:
+
 db_config = {
     'host': 'localhost',
     'database': 'company',
-    'user': 'root',
-    'password': 'yourpassword'
+    'user': 'root',       # Change if needed
+    'password': 'yourpassword'   # Enter your MySQL password
 }
 
 4️⃣ Run the App
 streamlit run employee_management.py
 
-🔮 Future Improvements
-Update & Delete employees
-Department-wise analytics
-Secure credentials using .env file
 
-🌐 Deploy on Streamlit Cloud / Heroku
+App will open in your browser at:
+👉 http://localhost:8501
+
+📌 Future Improvements
+
+✏️ Update / Delete employee records
+
+📤 Export employee list to CSV/Excel
+
+🔐 Add login system for admin access
+
+📊 More analytics & dashboards
 
 👨‍💻 Author
-Developed by Aman kumar maurya
- 
 
-
-
+Aman Maurya
+Aspiring Data Analyst | Python & SQL Enthusiast
